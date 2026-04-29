@@ -1,94 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-G-MTJXE6XBFQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-MTJXE6XBFQ');
-</script>
-    <meta name="google-site-verification" content="eoBpqxlbtRNlhGx0uwshjIg-_wHNUVxpTBLN2fdc9Fg" />
+    <!-- SEO META -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEO Observation Dashboard</title>
+
+    <title>SEO Observation Dashboard | Google Analytics & Search Console</title>
+
+    <meta name="description" content="SEO Observation Dashboard for Google Search Console and Analytics. Learn mobile usability, indexing, traffic analysis and voice search optimization.">
+    <meta name="keywords" content="SEO dashboard, Google Analytics, Search Console, Mobile usability, Voice search SEO, Ahmedabad SEO">
+    <meta name="author" content="AXY Chauhan">
+
+    <!-- Google Verification -->
+    <meta name="google-site-verification" content="eoBpqxlbtRNlhGx0uwshjIg-_wHNUVxpTBLN2fdc9Fg" />
+
+    <!-- OPEN GRAPH (SEO Boost for Sharing) -->
+    <meta property="og:title" content="SEO Observation Dashboard">
+    <meta property="og:description" content="Track SEO observations with Google tools.">
+    <meta property="og:type" content="website">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTJXE6XBFQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-MTJXE6XBFQ');
+    </script>
+
+    <!-- INTERNAL CSS -->
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #eef2ff, #f8fafc);
+            color: #1f2937;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1d4ed8;
+            margin-bottom: 10px;
+            font-size: 34px;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 25px;
+            color: #475569;
+        }
+
+        section {
+            background: #fff;
+            max-width: 1000px;
+            margin: 25px auto;
+            padding: 25px;
+            border-radius: 14px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            border-left: 6px solid #2563eb;
+            transition: 0.3s;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: #2563eb;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #dc2626;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th {
+            background: #2563eb;
+            color: white;
+            padding: 14px;
+        }
+
+        td {
+            padding: 14px;
+            border: 1px solid #e5e7eb;
+        }
+
+        tr:nth-child(even) {
+            background: #f8fafc;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        footer {
+            max-width: 1000px;
+            margin: 30px auto;
+            text-align: center;
+            padding: 18px;
+            background: #1e293b;
+            color: white;
+            border-radius: 12px;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            h1 { font-size: 26px; }
+            section { padding: 18px; }
+            table, th, td { font-size: 14px; }
+        }
+
+    </style>
+
 </head>
+
 <body>
-<meta name="google-site-verification" content="eoBpqxlbtRNlhGx0uwshjIg-_wHNUVxpTBLN2fdc9Fg" /> 
+
     <h1>SEO & Analytics Observation Page</h1>
-    <p>Use this page to perform and record observations for Google Search Console and Analytics.</p>
+    <p class="subtitle">Google Search Console + Analytics Practical Dashboard</p>
 
-    <hr>
-
-    <!-- SECTION 1: GOOGLE SEARCH CONSOLE OBSERVATION -->
+    <!-- TASK 1 -->
     <section>
-        <h2>Task 1: Mobile Usability & Indexing Observation</h2>
-        <p><strong>Step 1:</strong> Open <a href="https://google.com" target="_blank">Google Search Console</a>.</p>
-        <p><strong>Step 2:</strong> Go to <b>Experience > Mobile Usability</b>.</p>
-        
-        <table border="1" cellpadding="10">
+        <h2>Task 1: Mobile Usability & Indexing</h2>
+
+        <p><b>Step 1:</b> Open <a href="https://search.google.com/search-console" target="_blank">Google Search Console</a></p>
+        <p><b>Step 2:</b> Go to Experience → Mobile Usability</p>
+
+        <table>
             <tr>
-                <th>Observation Point</th>
-                <th>Details / Findings</th>
+                <th>Observation</th>
+                <th>Details</th>
             </tr>
+
             <tr>
-                <td><strong>Common Errors to Check</strong></td>
+                <td>Common Errors</td>
                 <td>
                     <ul>
-                        <li>Text too small to read</li>
-                        <li>Clickable elements too close together</li>
-                        <li>Content wider than screen</li>
+                        <li>Text too small</li>
+                        <li>Buttons too close</li>
+                        <li>Content overflow</li>
                     </ul>
                 </td>
             </tr>
+
             <tr>
-                <td><strong>Mobile-First Indexing Importance</strong></td>
+                <td>Importance</td>
                 <td>
-                    Google uses the <b>mobile version</b> of your site for ranking. 
-                    If mobile usability is poor, your site's overall SEO rank will drop 
-                    because Google prioritizes mobile-friendly content.
+                    Google mobile-first indexing use kare chhe. Mobile site weak hoy to ranking down thai.
                 </td>
             </tr>
         </table>
     </section>
 
-    <hr>
-
-    <!-- SECTION 2: GOOGLE ANALYTICS & VOICE SEARCH OBSERVATION -->
+    <!-- TASK 2 -->
     <section>
-        <h2>Task 2: Traffic Analysis & Voice Search Optimization</h2>
-        <p><strong>Step 1:</strong> Open <a href="https://google.com" target="_blank">Google Analytics</a>.</p>
-        <p><strong>Step 2:</strong> Go to <b>Reports > Engagement > Pages and screens</b>.</p>
+        <h2>Task 2: Traffic & Voice SEO</h2>
 
-        <table border="1" cellpadding="10">
+        <p><b>Step 1:</b> Open <a href="https://analytics.google.com" target="_blank">Google Analytics</a></p>
+        <p><b>Step 2:</b> Go to Reports → Engagement → Pages</p>
+
+        <table>
             <tr>
-                <th>Observation Point</th>
-                <th>Details / Action Plan</th>
+                <th>Observation</th>
+                <th>Action</th>
             </tr>
+
             <tr>
-                <td><strong>Top Viewed Pages</strong></td>
-                <td>Identify the URL with the highest "Views" in your Analytics table.</td>
+                <td>Top Page</td>
+                <td>Check highest views page</td>
             </tr>
+
             <tr>
-                <td><strong>Voice Search Optimization (For Top Page)</strong></td>
+                <td>Voice SEO</td>
                 <td>
                     <ol>
-                        <li><b>Conversational Tone:</b> Rewrite headers as questions (e.g., "How to...").</li>
-                        <li><b>Short Answers:</b> Provide direct answers within 40-50 words.</li>
-                        <li><b>FAQ Schema:</b> Add a Frequently Asked Questions section.</li>
-                        <li><b>Local Intent:</b> Use "near me" or specific location keywords if applicable.</li>
+                        <li>Use question headings</li>
+                        <li>Short answers</li>
+                        <li>Add FAQ schema</li>
+                        <li>Use local keywords (Ahmedabad, near me)</li>
                     </ol>
                 </td>
             </tr>
         </table>
     </section>
 
-    <hr>
-
     <footer>
-        <p><i>Note: This page is designed for manual observation of SEO tools for your GitHub site.</i></p>
+        <p>© SEO Practical Dashboard | Designed by AXY Chauhan</p>
     </footer>
 
 </body>
